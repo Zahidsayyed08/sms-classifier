@@ -39,5 +39,8 @@ st.sidebar.write("""
 - This app uses a machine learning model trained with **TfidfVectorizer** and **MultinomialNB**.
 - Built with **Streamlit** for spam detection tasks.
 - You can enter any message, and the app will classify it as Spam or Not Spam with a confidence score.
+
+Commit by zahid
+
 """)
 
