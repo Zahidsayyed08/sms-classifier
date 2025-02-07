@@ -26,7 +26,7 @@ if st.button("Predict"):
         prediction_proba = classifier.predict_proba(user_input_vectorized)[0]
         
         if prediction == 1:
-            st.error("The message is classified as **Spam**.")
+            st.error("The message is classified as **Spam** hutt.")
         else:
             st.success("The message is classified as **Not Spam**.")
 
@@ -41,6 +41,9 @@ st.sidebar.write("""
 - You can enter any message, and the app will classify it as Spam or Not Spam with a confidence score.
 
 Commit by zahid
+ff
+f
+f
 
 """)
 
